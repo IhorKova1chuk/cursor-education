@@ -1,0 +1,97 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(51, 45, 45, 0.897);
+}
+
+.container 
+{
+    width: 600px;
+    margin: 40px auto;
+    border: 2px solid #676766;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table
+{
+    border-collapse: separate;
+    border-radius: 10px;
+    border-spacing: 0;
+
+}
+.myTable td, .myTable th 
+{
+    border-top: 1px solid #676766;
+    padding: 10px 15px;
+    color: rgba(222, 226, 230, 0.897);
+}
+
+.myTable th
+{
+ color: #fff;
+}
+
+.downarrow 
+{
+    height: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+th
+{
+    width: 33.3%;
+}
+thead th {
+    color: #fff;
+    padding: 10px;
+    height: 35px;
+    text-align: left;
+}
+.file label {
+    padding-left: 10px;
+}
+.myTable .dots
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.search {
+    border-style: none;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(128, 125, 122, 0.385);
+    padding-left: 30px;
+}
+
+.searchimg {
+    width: 17px;
+    position: absolute;
+    top: 11px;
+    left: 6px;
+    z-index: 2;
+}
+
+.search::placeholder {
+    color: rgba(222, 226, 230, 0.61);
+}
+
+#search {
+    position: relative;
+    padding: 0;
+    padding-right: 4px;
+
+}
+
+.archiveimg {
+    width: 17px;
+    margin-right: 8px;
+}

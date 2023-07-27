@@ -1,0 +1,310 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header,
+main,
+footer,
+article,
+figure,
+hgroup {
+    display: block;
+    width: 100%;
+}
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.header
+{
+    background: #ED4C5C;
+}
+
+.container
+{
+    
+    margin: 0 auto;
+    width: 1070px;
+    height: 500px;
+    padding: 95px 0;
+    position: relative;
+}
+
+
+
+.container_text
+{
+    
+}
+
+.container_text h1
+{
+    width: 445px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.container_text p
+{
+    width: 445px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-bottom: 40px;
+}
+.container_icon
+{
+    display: flex;
+    width: 134px;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.container_img
+{
+    
+    
+    margin: 94 216 95 691;
+    border-radius: 15px;
+    width: 533px;
+    height: 311px;
+    flex-shrink: 0;
+    color: #C4C4C4;
+    
+}
+
+.Video_bg_left
+{
+    position: absolute;
+    top: 116px;
+    left: 540px;
+    width: 383px;
+    height: 267px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    opacity: 0.5;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+    z-index: 1;
+    
+}
+
+.Video_bg
+{
+    position: absolute;
+    top: 94px;
+    left: 565px;
+    width: 445px;
+    height: 311px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+    z-index: 2;
+}
+
+.Video_bg_right
+{
+    position: absolute;
+    top: 116px;
+    left: 655px;
+    width: 383px;
+    height: 267px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    opacity: 0.5;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+}
+.main 
+{
+    clear: both;
+    height: 500px;
+}
+
+.contact
+{ 
+    float: left;
+
+}
+.contact h2 
+{
+    color: #000;
+    font-size: 36px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.contact p 
+{
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 434px;
+}
+
+form {
+    float: right;
+    width: 500px;
+}
+main .container {
+    height: 500px;
+}
+
+.abuot {
+    float: left;
+}
+
+.abuot p {
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 434px;
+}
+
+.first,
+.last,
+.phone,
+select {
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    padding-left: 10px;
+    margin-bottom: 24px;
+}
+
+.first {
+    margin-right: 30px;
+
+}
+
+.first,
+.last {
+    width: 220px;
+
+}
+
+.phone,
+select {
+    width: 95%;
+}
+
+.button {
+    border-radius: 6px;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.column {
+    width: 25%;
+    float: left;
+    padding: 10px 0;
+
+}
+
+.footer {
+    position: relative;
+    display: block;
+}
+
+.footer h3 {
+    color: #101010;
+    font-size: 18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 33px;
+}
+
+.adress p {
+    color: #101010;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 170px;
+}
+
+.services ul {
+    color: #000;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.touch a {
+    color: #101010;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.social_container img {
+
+    padding: 10px;
+}
+
+.copyright {
+    clear: both;
+    color: #101010;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 86px 0;
+}
